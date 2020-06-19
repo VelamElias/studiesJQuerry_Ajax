@@ -15,7 +15,7 @@ function consultaCEP()
             document.getElementById("localidade").innerHTML = response.localidade;
             document.getElementById("uf").innerHTML = response.uf;
 
-            //Usando AJAX puro para consultar a UF
+            //Usando jquerry puro para consultar a UF
             $("#ufAJ").html(response.uf);
         }
     })
